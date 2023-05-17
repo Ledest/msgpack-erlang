@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        version: [22, 23, 24, 25]
+        version: [18, 19, 20, 21, 22, 23, 24, 25]
     runs-on: ubuntu-latest
 
     container:
